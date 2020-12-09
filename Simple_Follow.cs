@@ -1,4 +1,7 @@
-﻿using System;
+//Thank you for using Simple-Follow!
+//https://github.com/AustinJacobz/Simple-Follow/
+
+using System;
 using System.Collections;
 using UnityEngine;
 
