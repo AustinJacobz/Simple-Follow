@@ -1,3 +1,5 @@
+//Thank you for using Simple-Follow!
+//https://github.com/AustinJacobz/Simple-Follow/
 using UnityEngine;
 using UnityEditor;
 
