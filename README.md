@@ -7,5 +7,5 @@ A bare-bones position tracking script for Unity GameObjects with Editor.
   2. Place Simple_Follow on Gameobject you want to track to an object.
   3. Put what ever you want it tracked to into the target slot.
   4. Align the offset then click the offset button to automatically get the offset of the two objects.
-  5. Set the SmoothAmount, Higher = Slower smoothing.
+  5. Set the SmoothAmount, ``Higher = Slower smoothing.``
   6. Choose what Update tick you want to use for the tracking.
