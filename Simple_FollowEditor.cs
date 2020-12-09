@@ -1,21 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using System;
 
-[CustomEditor(typeof(FollowTarget))]
+[CustomEditor(typeof(Simple_Follow))]
 public class Simple_FollowEditor : Editor
 {
-    public override void OnInspectorGUI()
+    public override void OnInspectorGUI() //Makes a UI element.
     {
         DrawDefaultInspector();
 
-        FollowTarget myTarget = (FollowTarget)target;
+        Simple_Follow myTarget = (Simple_Follow)target; //Gets target
         if(GUILayout.Button("Get Offset"))
         {
-            Vector3 newOffset = myTarget.transform.position - myTarget.target.position;
-            myTarget.offset = newOffset;
+            myTarget.offset = myTarget.transform.position - myTarget.target.position; //Gets offset for you.
         }
     }
 }
